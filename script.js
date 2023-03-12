@@ -29,4 +29,3 @@ $("#currentDay").text(currentDate);
 var currentHour = dayjs().format("H");
 console.log(currentHour)
 
-
