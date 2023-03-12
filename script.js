@@ -25,5 +25,8 @@ $(function () {
 var currentDate = dayjs().format("dddd MMMM D");
 $("#currentDay").text(currentDate);
 
+//gets data for current hour
+var currentHour = dayjs().format("H");
+console.log(currentHour)
 
 
